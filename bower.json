@@ -1,0 +1,19 @@
+{
+  "name": "cat clicker",
+  "authors": [
+    "JasmineYuan <yuantingisme@gmail.com>"
+  ],
+  "description": "demo for online course of Javascript Design Pattern",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
