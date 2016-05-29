@@ -3,13 +3,18 @@
     margin: 0 auto;
 }
 
-#container p {
+.group {
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.group p {
     text-align: center;
     font-family: Helvetica sans-serif;
     font-size: 28px;
     color: #2e3d49;
 }
 
-#cat img{
+.group img{
     width: 100%;
 }
