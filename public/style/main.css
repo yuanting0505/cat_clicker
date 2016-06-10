@@ -1,21 +1,53 @@
+body {
+    font-family: Avenir, sans-serif;
+}
+
 #container {
     width: 700px;
     margin: 0 auto;
 }
 
+#cat-list {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 200px;
+}
+
+#cat-list ul {
+    list-style: none;
+}
+
+#cat-list li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #2e3d49;
+}
+
+#cat-list li:hover {
+    color: skyblue;
+}
+
+#cat-list li.clicked {
+    color: darkcyan;
+}
+
 .group {
+    display: none;
     border: 1px solid grey;
-    margin-bottom: 20px;
 }
 
 .group p {
     text-align: center;
-    font-family: Helvetica sans-serif;
     font-size: 28px;
     color: #2e3d49;
 }
 
-.group img{
+.group img {
     width: 100%;
+    display: block;
+}
+
+.group.show {
     display: block;
 }
