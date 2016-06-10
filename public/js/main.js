@@ -6,11 +6,23 @@ $(document).ready(function() {
     var catCollection = [
         {
             name: 'DogEgg',
-            pic: 'public/img/dogEgg.jpg'
+            pic: 'public/img/DogEgg.jpg'
         },
         {
             name: 'CatEgg',
-            pic: 'public/img/catEgg.jpg'
+            pic: 'public/img/CatEgg.jpg'
+        },
+        {
+            name: 'BaiBai',
+            pic: 'public/img/BaiBai.jpg'
+        },
+        {
+            name: 'MeowMeow',
+            pic: 'public/img/MeowMeow.jpg'
+        },
+        {
+            name: 'KunKun',
+            pic: 'public/img/Sleepy.jpg'
         }
     ];
 
