@@ -42,6 +42,8 @@ $(document).ready(function() {
 
     $('#cat-list ul').append(catListTemplate(catCollection));
 
+    $($('#cat-list').find('.cat-li')[0]).addClass('clicked');
+
     //bind click event to each group
     $('.group img').click(function(e) {
         //add counter when clicking the picture
